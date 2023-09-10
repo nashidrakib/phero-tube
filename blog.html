@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .horizontal-line {
+            border: none;
+            /* Remove the default line border */
+            height: 2px;
+            /* Set the height of the line */
+            background-color: #000;
+            /* Set the background color of the line */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="flex justify-center">
+        <div
+            class="flex flex-col lg:flex-row md:flex-row items-center justify-between lg:w-[1500px] md:w-[700px] md:mt-14 lg:mt-14 my-6 lg:mb-8 gap-3 md:gap-0 lg:gap-0">
+            <img class="" src="Logo.png" alt="">
+            <a href="index.html">
+                <button class="btn bg-red-600 text-white hover:bg-red-700 px-5">Go Back</button>
+            </a>
+        </div>
+    </header>
+    <div class="lg:w-[1500px] lg:flex md:flex md:w-[700px] hidden h-[1px] bg-slate-400 mx-auto"></div>
+    <main class=" mb-20 flex flex-col justify-center items-center lg:p-[50px] mb:p-[50px] p-[20px]">
+        <div class="bg-slate-100 shadow-lg p-[40px] rounded-2xl my-5 md:max-w-[600px] lg:max-w-[900px]">
+            <span class="font-bold">Discuss the scope of var, let, and const.</span>
+            <br>
+            <br>
+            <span>In JavaScript, we have three ways to declare variables: var, let, and const. var is an older way, known for its function or global scope, and it allows you to change the value of the variable after it's declared. let provides a more controlled approach with block-level scope, making it better suited for loops and if statements, and it can be reassigned within its scope. On the other hand, const is used for variables that shouldn't change once they are set. It also has block scope like let, but it ensures that the value cannot be modified after initialization. These three options offer different levels of control and flexibility when working with variables in JavaScript.</span>
+        </div>
+        <div class="bg-slate-100 shadow-lg p-[40px] rounded-2xl my-5 md:max-w-[600px] lg:max-w-[900px]">
+            <span class="font-bold">Tell us the use cases of null and undefined.</span>
+            <br>
+            <br>
+            <span>In JavaScript, the values null and undefined have distinct roles. null is specifically used to indicate the deliberate absence of a value, typically when you want to convey that a variable should be empty or reset to an empty state on purpose. undefined signifies that a variable has been declared but hasn't been given any value, it functions as the default state for function parameters when they haven't been provided or when you try to access an object property that doesn't exist. Recognizing these differences is essential for precise variable handling and robust JavaScript coding practices.</span>
+        </div>
+        <div class="bg-slate-100 shadow-lg p-[40px] rounded-2xl my-5 md:max-w-[600px] lg:max-w-[900px]">
+            <span class="font-bold">What do you mean by REST API?</span>
+            <br>
+            <br>
+            <span>A REST API is like a set of rules for web applications to talk to each other. It uses standard commands like "get" (to ask for data), "post" (to send data), "put" (to update data), and "delete" (to remove data) to make requests to a web server. It's a way for different programs and websites to share information and work together on the internet.</span>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
